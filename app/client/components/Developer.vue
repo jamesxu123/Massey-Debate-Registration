@@ -183,7 +183,7 @@
             });
 
             $.ajax({
-                url: "https://api.github.com/repos/MasseyHacks/MasseyHacks-V-Registration/commits/master",
+                url: "https://github.com/jamesxu123/Massey-Debate-Registration/commits/master",
                 success: (data) => {
                     console.log("asgsfagf",data);
                     this.currentRemoteVersion = data.sha;
